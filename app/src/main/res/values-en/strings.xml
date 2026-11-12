@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">30 Days of Digital Hygiene</string>
+    <string name="list_subtitle">One small habit a day</string>
+    <string name="tip_day">Day %1$d</string>
+    <string name="tip_detail_title">Day %1$d of 30</string>
+    <string name="navigate_up">Back to the list</string>
+
+    <string name="tip_1_title">Set up a proper screen lock</string>
+    <string name="tip_1_summary">A six-digit PIN plus a fingerprint beats a pattern lock and opens just as fast.</string>
+    <string name="tip_1_description">Go to Settings → Security (or Lock screen) and choose a six-digit PIN or a password. A pattern is easy for someone to see over your shoulder, and your finger leaves a visible trail on the glass. Add fingerprint or face unlock on top of the code so the phone still opens with one touch. Cut the auto-lock delay to 30 seconds or a minute. On a laptop, press Win+L whenever you step away from your desk, or Control+Command+Q on a Mac.</string>
+
+    <string name="tip_2_title">Turn on automatic updates</string>
+    <string name="tip_2_summary">Updates patch known security holes, so let your phone and laptop install them without waiting for you.</string>
+    <string name="tip_2_description">Start by installing whatever is already waiting: on your phone, look for System update in settings, and on your laptop, open the updates section. Then switch on auto-update in the app store, ideally over Wi-Fi only so it doesn\'t eat into your mobile data. Don\'t put off the restart for weeks, because many fixes only take effect after it. Installing usually takes 10–20 minutes, so it\'s easiest to start in the evening while the phone charges.</string>
+
+    <string name="tip_3_title">Turn off notifications you don\'t need</string>
+    <string name="tip_3_summary">Keep alerts from people and important services; everything else can wait until you open the app.</string>
+    <string name="tip_3_description">Scroll through the list in Settings → Notifications: shops, games and news feeds are usually the noisiest. Turn their notifications off completely or make them silent, with no sound or pop-ups. Leave messages from people, your bank, your calendar and study chats alone. You can get through the whole list in about ten minutes, even with lots of apps. Most people find they reach for the phone far less afterwards, and important messages stop getting lost among the ads.</string>
+
+    <string name="tip_4_title">Get ready in case you lose your phone</string>
+    <string name="tip_4_summary">If your phone goes missing, you\'ll be able to see it on a map, lock it or wipe it remotely.</string>
+    <string name="tip_4_description">Both Android and iPhone have a built-in finder: in settings it\'s called Find My Device or Find My. Check that it\'s switched on, along with location services. Then sign in to your account on a computer and make sure the phone shows up on the map. From there you can make it ring, lock it or erase its data if it doesn\'t turn up. It\'s better to walk through this once while you\'re calm than to hunt for the right button in a panic.</string>
+
+    <string name="tip_5_title">Don\'t install apps from links</string>
+    <string name="tip_5_summary">Get apps from the store or the developer\'s own website, and never open app files sent in chats.</string>
+    <string name="tip_5_description">There are two safe sources: the app store on your phone and the developer\'s official website, opened by typing the address yourself. If someone in a messenger sends you a file that claims to be a new version of your banking app or a photo viewer, delete it without opening. In Settings → Security, find the option for installing unknown apps and take that permission away from your browser and messengers. Keep the store\'s built-in app scanning switched on too, since it catches some malware.</string>
+
+    <string name="tip_6_title">Clean up your apps</string>
+    <string name="tip_6_summary">Anything you haven\'t opened in a month can go: fewer apps means fewer ways into your data.</string>
+    <string name="tip_6_description">The app list or the Storage section usually shows when you last opened each app. One-evening games, a delivery service you used once and your third photo editor can normally go without regret. Every one of them keeps updating, holds on to the permissions you gave it and sometimes runs in the background. If you need one again, it takes a minute to reinstall, and your account with the service will still be there.</string>
+
+    <string name="tip_7_title">Pin the app when lending your phone</string>
+    <string name="tip_7_summary">A child can watch cartoons and a friend can browse photos, but nobody wanders into your chats or bank.</string>
+    <string name="tip_7_description">On Android the feature is called App pinning and lives in Settings → Security. iPhone has a similar one called Guided Access, tucked away in Accessibility. While an app is pinned, nobody can leave it without your PIN or fingerprint. It comes in handy when a younger brother wants to play a game or when you\'re showing friends photos from a trip. If a child in your family has their own tablet, set up a child account so the built-in parental controls can limit screen time, purchases and adult content.</string>
+
+    <string name="tip_8_title">Strengthen your main email password</string>
+    <string name="tip_8_summary">Your email is how almost every other account gets recovered, so its password has to be the strongest.</string>
+    <string name="tip_8_description">Pick four or five random, unrelated words and join them into one phrase. A password like that is easy to remember and very hard to guess: in practice, a length of 16 characters or more matters more than swapping letters for digits. Names, dates, pet names and song lyrics won\'t do, because they are the first things attackers try. You can usually change it in your account settings under Security. After that there\'s no need to change it again unless you suspect a leak.</string>
+
+    <string name="tip_9_title">One site, one password</string>
+    <string name="tip_9_summary">When one site\'s database leaks, the same password gets tried everywhere. Unique passwords break that chain.</string>
+    <string name="tip_9_description">List your five most important accounts: email, social media, photo cloud, online marketplace and university portal. If even two of them share a password, start there and give each its own. Attackers automatically test leaked email and password pairs on hundreds of services, so an old password from some forum can unlock your social media too. Change the rest gradually, whenever you next sign in to them.</string>
+
+    <string name="tip_10_title">Keep passwords in the built-in manager</string>
+    <string name="tip_10_summary">The manager in your browser or phone remembers passwords for you and comes up with long new ones.</string>
+    <string name="tip_10_description">There\'s nothing to install: a manager is already built into your laptop\'s browser and your phone\'s settings. When you sign up somewhere, accept the password it suggests, and check the Passwords section for its report on weak and reused ones. The manager itself is protected by your screen lock and the password of the account it\'s tied to, so both need to be strong. Once everything is moved over, delete the notes, the screenshots and that passwords.txt file on your desktop.</string>
+
+    <string name="tip_11_title">Turn on two-factor authentication</string>
+    <string name="tip_11_summary">Even with your password, nobody gets in without the second step. Start with email and social media.</string>
+    <string name="tip_11_description">The setting usually sits under Security in your account settings and is called two-step verification or sign-in confirmation. Codes from an authenticator app, or a prompt on a phone you\'ve already linked, are the most reliable options. Text messages are weaker because they can be intercepted if someone gets your SIM card reissued, but they\'re still far better than a password alone. Turn on the extra password in your messenger as well: it will be requested whenever someone signs in from a new device.</string>
+
+    <string name="tip_12_title">Save your backup codes</string>
+    <string name="tip_12_summary">One-time recovery codes get you back into your account if the phone you confirm sign-ins on goes missing.</string>
+    <string name="tip_12_description">When you turn on two-factor authentication, the service usually offers a list of backup codes, each of which works only once. Print them or copy them onto paper and keep them wherever you keep your documents. While you\'re at it, check the recovery email and phone number in your settings: they often still point to an old SIM or an inbox whose password you\'ve long forgotten. Ten minutes now can save you a long back-and-forth with support if your phone ever disappears.</string>
+
+    <string name="tip_13_title">Log out of other people\'s devices</string>
+    <string name="tip_13_summary">See where your account is signed in and end sessions on any computers you don\'t recognize.</string>
+    <string name="tip_13_description">Email, social networks and messengers all keep a list called something like Devices or Active sessions, usually in the security settings. It shows the device model, a rough location and the time of the last sign-in. End everything you no longer need: an old phone, a library computer, a friend\'s laptop you once signed in on. Location based on mobile internet is often wrong, so go by the device model first. If a device looks completely unfamiliar, change your password right after signing it out.</string>
+
+    <string name="tip_14_title">Check your email for data breaches</string>
+    <string name="tip_14_summary">The free site haveibeenpwned.com shows which leaked databases your address has turned up in.</string>
+    <string name="tip_14_description">Go to haveibeenpwned.com and enter your email address; the site never asks for your mailbox password. You\'ll get a list of breaches with the name of each site and the date. Look for services where you used your current password, and change it everywhere it was reused. Being in a breach doesn\'t mean you\'ve been hacked: usually it\'s just a reason to update a password and expect a bit more spam. You can check your parents\' addresses too, if they don\'t mind.</string>
+
+    <string name="tip_15_title">Don\'t log in through links in messages</string>
+    <string name="tip_15_summary">A fake login page looks just like the real one, and often only the web address gives it away.</string>
+    <string name="tip_15_description">An email about a blocked account, a text about a parcel or a link to vote in some contest often leads to a copy of a real site. Before you type a password, read the whole address, not just the beginning: an extra letter, a hyphen or an unusual ending gives a fake away. The padlock in the address bar proves nothing, since scam pages have one too. It\'s safer not to follow the link at all and to open the app or type the address yourself. Your password manager helps here as well: it won\'t offer a saved password on the wrong site.</string>
+
+    <string name="tip_16_title">Hang up on so-called bank calls</string>
+    <string name="tip_16_summary">A real bank never asks for a code from a text, a transfer to a safe account or for you to install an app.</string>
+    <string name="tip_16_description">Scammers pose as the bank\'s security team, the police or your mobile operator, and they rush you so you don\'t have time to think. Once the talk turns to a code from a text, your card details or an urgent transfer, you can hang up straight away. Then call the number on the back of your card or in the bank\'s app yourself and ask whether anything is wrong. The number on your screen proves nothing, because it\'s easy to fake. Tell older relatives about this trick, since they get these calls more often.</string>
+
+    <string name="tip_17_title">Check money requests with a phone call</string>
+    <string name="tip_17_summary">If a friend urgently asks for money in a messenger, call them on their normal number first.</string>
+    <string name="tip_17_description">A hijacked account gets put to work right away: scammers send every contact the same plea for a quick loan until tomorrow. A voice message isn\'t proof either, since it can be cut from old chats or faked with AI. Call the person on their regular number, and if they don\'t pick up, ask in the chat something only the two of you would know. If the account really has been hijacked, warn your mutual friends before anyone sends money.</string>
+
+    <string name="tip_18_title">Take back permissions apps don\'t need</string>
+    <string name="tip_18_summary">A flashlight doesn\'t need your contacts, but permissions granted at install time often stay put.</string>
+    <string name="tip_18_description">The permission manager in Settings → Privacy shows which apps can use your camera, microphone, contacts, files and text messages. Go through each category and remove access wherever an app doesn\'t need it to work. For things you use rarely, choose to allow access only while the app is in use, or to be asked every time. If an app stops working without a permission, it\'s easy to give it back. Checking everything usually takes about fifteen minutes, unless you have well over fifty apps.</string>
+
+    <string name="tip_19_title">Limit access to your location</string>
+    <string name="tip_19_summary">Most apps only need your location while you\'re using them, and some don\'t need it at all.</string>
+    <string name="tip_19_description">Your location settings include a list of apps that can see where you are. Leave maps and taxi apps with access only while in use, and simply switch it off for shops, games and social media. Weather and news apps can make do with your approximate location: both Android and iPhone have a toggle for precise location. Also look at the location history kept in your account and on your phone. If you don\'t need it, turn it off and delete what has built up.</string>
+
+    <string name="tip_20_title">View your profile as a stranger</string>
+    <string name="tip_20_summary">Open your page while signed out and hide your phone number, address and birthday from public view.</string>
+    <string name="tip_20_description">The easiest way is to open your page in an incognito window, or use the view-as feature if your social network has one. Your phone number, full date of birth, university and group, or photos of documents all help scammers sound convincing. In the privacy settings, limit who can see your phone number, friends list and old posts, and stop people from finding you by phone number. Finally, search for your own name: forgotten profiles and old pages sometimes turn up.</string>
+
+    <string name="tip_21_title">Be careful with free Wi-Fi</string>
+    <string name="tip_21_summary">In cafes and airports, switch to mobile data for banking and other important accounts.</string>
+    <string name="tip_21_description">Most websites encrypt the connection these days, so the main risk is a fake hotspot with a name that looks like the real one. Be suspicious if the sign-in page asks for your email or social media password or your card details: a real cafe network has no use for them. If you need to do online banking on a laptop, share the connection from your phone instead. In your Wi-Fi settings, turn off auto-connect to open networks and remove cafes you won\'t be going back to.</string>
+
+    <string name="tip_22_title">Delete accounts you\'ve forgotten about</string>
+    <string name="tip_22_summary">Services you stopped using long ago still store your data and can end up in a breach.</string>
+    <string name="tip_22_description">Your inbox will help you find them: search for words like registration, welcome and confirm your email. Your password manager holds another list of old sites. The delete button is usually tucked away in the profile settings, sometimes under Privacy or at the very bottom of the page. If there isn\'t one, write to support and ask them to delete your account and the data they hold about you. Data protection law in many countries gives you this right, and mentioning it tends to help.</string>
+
+    <string name="tip_23_title">Revoke access for third-party apps</string>
+    <string name="tip_23_summary">Signing in to a site with your email or social account gives it access that lasts until you revoke it.</string>
+    <string name="tip_23_description">Quiz sites, games and study tools often offer to let you sign in with your email or social account, and then keep that access for years. These connections are listed in your account settings, usually under Security or Apps and websites. Remove anything you don\'t recognize or haven\'t opened in a long time. Pay particular attention to services allowed to read your email, contacts or cloud files. Your account on the site itself won\'t disappear; the site simply stops getting your data.</string>
+
+    <string name="tip_24_title">Check your paid subscriptions</string>
+    <string name="tip_24_summary">Free trials quietly turn into monthly charges, so find the ones you don\'t need and cancel them.</string>
+    <string name="tip_24_description">Subscriptions made through your phone are collected in the app store: tap your profile icon and open the Subscriptions section. Then scroll through your card statement for the last three months, where subscriptions bought on websites and forgotten trials show up too. Cancel them in the store or in the service\'s own settings, because deleting an app doesn\'t end the subscription. Whenever you start a free trial, set a calendar reminder for the day before the first charge.</string>
+
+    <string name="tip_25_title">Find out where your screen time goes</string>
+    <string name="tip_25_summary">Built-in stats show how many hours social media eats up, and a daily limit helps you stop in time.</string>
+    <string name="tip_25_description">On Android the stats are under Digital Wellbeing, on iPhone under Screen Time. Look not only at the total hours but also at how many times a day you unlock the phone. Pick one or two apps where time slips away unnoticed and give them a daily limit. Once it runs out, the app is paused for the rest of the day. Lifting the limit is easy, but even a short pause makes it easier to put the phone down.</string>
+
+    <string name="tip_26_title">Put your phone away an hour before bed</string>
+    <string name="tip_26_summary">A bedtime schedule mutes notifications, and charging away from the bed saves you from late-night scrolling.</string>
+    <string name="tip_26_description">Turn on the built-in bedtime mode or a Do Not Disturb schedule, say from 11 pm to 7 am, and let a couple of close people through. A warmer screen tint in the evening is nice, but what really matters is keeping the phone out of reach for the last half hour or hour before sleep. Move the charger at least as far as your desk, so there\'s less temptation to scroll one more time. A simple alarm clock is enough to wake you up, and then your morning won\'t start with notifications.</string>
+
+    <string name="tip_27_title">Back up your phone and files</string>
+    <string name="tip_27_summary">Photos, contacts and coursework should live in at least two places, and one of them shouldn\'t be your phone.</string>
+    <string name="tip_27_description">Switch on phone backup in your account settings: it covers contacts, settings and, if you allow it, photos. For coursework and photos that matter, keep one more copy on your laptop or an external drive, since you can lose access to a cloud account too. Every couple of months, open the copy and check that the files are there and actually open. Keep an eye on free cloud storage as well: when it runs out, backups stop, and that\'s easy to miss.</string>
+
+    <string name="tip_28_title">Protect your SIM card with a PIN</string>
+    <string name="tip_28_summary">Without a PIN, a stolen SIM card can go into another phone and receive your text message codes.</string>
+    <string name="tip_28_description">Look for SIM card lock or SIM PIN in the security or mobile network settings. Before turning it on, find the plastic card your SIM came in: it shows the default PIN and the PUK code for when things go wrong. Change the factory PIN to your own, different from your screen lock code, and expect to enter it after every restart. Three wrong attempts will block the SIM until you enter the PUK; if the card is lost, your operator can give you the code in its app or at a store.</string>
+
+    <string name="tip_29_title">Try passkeys instead of passwords</string>
+    <string name="tip_29_summary">A passkey lives on your device and unlocks with your fingerprint, and a fake site can\'t trick you out of it.</string>
+    <string name="tip_29_description">Many big services already offer this kind of sign-in: look for passkeys in the security settings. A passkey is created on your phone or laptop and confirmed with the same fingerprint, face or PIN you use to unlock it. It only works on the site where it was created, so a phishing copy can\'t get hold of it. Your password usually stays as a backup way in, so keep it in your password manager. Passkeys normally sync through your phone\'s account and move with it to a new device.</string>
+
+    <string name="tip_30_title">Encrypt your laptop\'s drive</string>
+    <string name="tip_30_summary">A lost or stolen laptop won\'t give your files away, even if someone takes the drive out.</string>
+    <string name="tip_30_description">A login password only guards the sign-in screen, while the files on the drive are stored in plain form. Phones with a screen lock are usually encrypted already, but laptops aren\'t always. On Windows, look for Device encryption or BitLocker in settings; on a Mac, turn on FileVault under Privacy and Security. Save the recovery key before you start, and not on that laptop: keep it in your account or on a printout. Without it your data can\'t be recovered after a failure, while the encryption itself runs in the background and hardly gets in the way.</string>
+</resources>

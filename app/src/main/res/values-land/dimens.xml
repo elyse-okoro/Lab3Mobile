@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- в альбомной ориентации картинка не должна выталкивать текст за нижний край -->
+    <dimen name="detail_image_max_height">200dp</dimen>
+</resources>
