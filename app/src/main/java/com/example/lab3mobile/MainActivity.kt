@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     private val viewModel: TipsViewModel by viewModels {
-        TipsViewModelFactory((application as TipsApplication).repository)
+        TipsViewModelFactory(application as TipsApplication)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,13 +45,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun applyWindowInsets() {
+        // отступы списка из разметки сохраняем: системные добавляются к ним, а не заменяют их
+        val listLeft = binding.tipsList.paddingLeft
+        val listRight = binding.tipsList.paddingRight
         val listBottom = binding.tipsList.paddingBottom
         ViewCompat.setOnApplyWindowInsetsListener(binding.main) { _, insets ->
             val bars = insets.getInsets(
                 WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
             )
             binding.appBar.updatePadding(top = bars.top, left = bars.left, right = bars.right)
-            binding.tipsList.updatePadding(left = bars.left, right = bars.right, bottom = listBottom + bars.bottom)
+            binding.tipsList.updatePadding(
+                left = listLeft + bars.left,
+                right = listRight + bars.right,
+                bottom = listBottom + bars.bottom
+            )
             insets
         }
     }

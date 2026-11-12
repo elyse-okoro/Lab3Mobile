@@ -24,6 +24,7 @@
         <activity
             android:name=".ui.detail.TipDetailActivity"
             android:exported="false"
+            android:launchMode="singleTop"
             android:parentActivityName=".MainActivity" />
     </application>
 

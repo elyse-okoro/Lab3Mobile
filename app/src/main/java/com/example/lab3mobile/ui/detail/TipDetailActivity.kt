@@ -23,8 +23,8 @@ class TipDetailActivity : AppCompatActivity() {
 
     private val viewModel: TipDetailViewModel by viewModels {
         TipDetailViewModelFactory(
-            (application as TipsApplication).repository,
-            intent.getIntExtra(EXTRA_TIP_DAY, FIRST_DAY)
+            application as TipsApplication,
+            intent.getIntExtra(EXTRA_TIP_DAY, NO_DAY)
         )
     }
 
@@ -64,7 +64,7 @@ class TipDetailActivity : AppCompatActivity() {
 
     companion object {
         private const val EXTRA_TIP_DAY = "com.example.lab3mobile.extra.TIP_DAY"
-        private const val FIRST_DAY = 1
+        private const val NO_DAY = -1
 
         fun newIntent(context: Context, day: Int): Intent =
             Intent(context, TipDetailActivity::class.java).putExtra(EXTRA_TIP_DAY, day)
