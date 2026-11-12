@@ -61,6 +61,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tip_image"
                 app:layout_constraintWidth_max="@dimen/detail_max_width"
+                tools:targetApi="p"
                 tools:text="@string/tip_1_title" />
 
             <TextView
